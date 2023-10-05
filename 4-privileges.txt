@@ -1,0 +1,15 @@
+4 privileges
+
+Create
+met deze privilege kun je statements gebruiken die nieuwe tabellen en databases maken.
+Deze privilege heb ik nodig om nieuwe tebellen en databases te maken. Een hacker zou hiermee mijn database kunnen breken door heel veel dingen te creeren of tussen andere dingen in de zetten.
+
+Drop
+Hiermee kun je statements gebruiken die bestaande tabellen en databases weghalen.
+Deze privilege heb ik nodig als ik een tabel of database weg wil halen. Een hacker zou dit kunnen gebruiken om belangrijke delen van de database te verwijderen.
+
+Reload
+Met Reload kun je Flush statements gebruiken en alle mysqladmin commands die onderdeel zijn van Flush. Je krijgt ook toegang tot het gebruik van de Reset Master en Reset Replica statements.
+
+Trigger
+Geeft toegang tot van gebruik van Trigger operations. Deze privilege heb je nodig om triggers voor de tabel te creeren, droppen, executen en displayen. Als een trigger geactiveerd is heeft de gebruiker de Trigger privilege nog steeds nodig om de trigger te executen.
