@@ -1,0 +1,22 @@
+Isolatorweg 25 Westcorner, 1014 AS Amsterdam
+
+straatnaam: Isolatorweg
+type: str
+
+huisnummer: 25
+type: str (het zou bijv ook 25A/25RD kunnen zijn, dat kan niet met int)
+
+postcode: 1014AS
+type: str
+
+plaats: Amsterdam
+type: str
+
+
+AdresID binnen de table 'adres' de primary key omdat deze het belangrijkst is en waarde krijgt door de data die eronder staat.
+
+AdresID krijgt not null omdat het niet handig is om nuttelose data in te table te hebben.
+
+AdresID krijgt unsigned omdat in geen enkel stuk data in de table 'adres' is het nuttig om die onder 0 te zetten, in dit geval zou dat alleen maar voor errors zorgen.
+
+AdresID krijgt unique omdat in de table 'adres' het niet logisch is dat twee stukken data hetzelfde zijn.
