@@ -1,16 +1,16 @@
 Isolatorweg 25 Westcorner, 1014 AS Amsterdam
 
 straatnaam: Isolatorweg
-type: str
+type: varchar
 
 huisnummer: 25
-type: str (het zou bijv ook 25A/25RD kunnen zijn, dat kan niet met int)
+type: varchar (het zou bijv ook 25A/25RD kunnen zijn, dat kan niet met int)
 
 postcode: 1014AS
-type: str
+type: varchar
 
 plaats: Amsterdam
-type: str
+type: varchar
 
 
 AdresID binnen de table 'adres' de primary key omdat deze het belangrijkst is en waarde krijgt door de data die eronder staat.
